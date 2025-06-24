@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 # --- Telegram Bot Setup ---
 # Your Telegram Bot API Token. It's CRUCIAL to get this from environment variables
 # when deploying to Vercel for security.
-BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+BOT_TOKEN = os.getenv('7329446852:AAEcaewwKxlLO-w3vniZsTg4lZyBzlWZTB8')
 
 # Initialize the Application outside of any function to keep it persistent for webhooks
 # We don't run polling here, so no `run_polling()`
